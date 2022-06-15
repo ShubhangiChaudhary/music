@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/img2.jpg);
+    /* background-image: url(images/img5.jpeg); */
+    /* background: linear-gradient(rgba(220, 208, 208, 0.1), rgba(165, 4, 4, 0.5)), url(images/img5.jpeg); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: x-small;
+    color: whitesmoke;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 12 12px;
+}
+
+.navbar ul li a:hover{
+    /* background-color: rgb(229, 116, 116); */
+    background-color: red;
+    color: aliceblue;
+}
+
+.active{
+     /* background-color: rgb(229, 116, 116); */
+     background-color: red;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left-col{
+    margin-left: 5%;
+}
+
+.left-col h2{
+    font-size: 40px;
+    /* color: rgb(161, 79, 79); */
+    color: yellow;
+    line-height: 80px;
+    float: left;
+}
+
+.left-col h2 span{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.right-col{
+    float: right;
+    margin-right: 9%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p{
+    font-size: 18px;
+    color: aliceblue;
+    /* font-weight: 400; */
+    margin-right: 25px;
+}
+
+.lines{
+    float: right;
+    margin-right: 10%;
+    margin-top: 40px;
+    font-size: 20px;
+    /* color: rgb(161, 79, 79); */
+    color: aliceblue;
+    line-height: 30px;
+}
+
+.lines h1{
+    font-size: 15px;
+    float: right;
+}
+
+.lines span{
+    color: rgb(213, 243, 61);
+}
+
+#icon{
+    width: 70px;
+    cursor: pointer;
+}
+
+
+
+/* ARTISTS */
+
+.artist h1{
+    text-align: center;
+    padding: 50px;
+    color: rgb(25, 25, 153);
+    font-size: 35px;
+}
+
+.artist h1 span{
+    color: red;
+    font-weight: bolder;
+}
+
+.idol{
+    max-width: 960px;
+    margin: 0 auto;
+    /* padding: 0 2%; */
+}
+
+.idol-grid{
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.idol-grid:after{
+    clear: both;
+}
+
+.idol-grid:after, .idol-box:before{
+    content: "";
+    display: table;
+}
+
+.idol-grid li{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.idol-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform  0.3s ease-in-out;
+    -moz-transition:  0.3s ease-in-out, -moz-transform  0.3s ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.idol-box:hover{
+    transform: scale(1.05);
+}
+
+.idol1{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/jubin3.jpg);
+}
+
+.idol2{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/one.jpg);
+}
+
+.idol3{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/arijit.jpg);
+}
+
+.idol4{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/bts.jpg);
+}
+
+.idol5{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/blackpink1.jpg);
+}
+
+.idol6{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/taylo.jpg);
+}
+
+.idol7{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/darshan.jpg);
+}
+.idol8{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/selena.jpg);
+}
+
+
+.idol9{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/kk1.png);
+}
+
+.idol10{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/justin1.jpg);
+}
+.idol11{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/neha.png);
+}
+.idol12{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/Alan.jpg);
+}
+
+
+.info{
+    /* position: absolute; */
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+
+.info h3{
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+    /* margin: 0 10px; */
+    padding-top: 130px;
+   /* float: left; */
+    line-height: 1.5;
+}
+
+.info p{
+    font-family: sans-serif;
+    color: white;
+    padding: 25px;
+}
+
+.info h3:hover, p:hover{
+    color: yellow;
+}
+
+
+/* ALBUM */
+
+.album h1{
+    text-align: center;
+    padding: 50px;
+    color: brown;
+}
+
+.album h1 span{
+    color: red;
+    font-weight: bolder;
+}
+
+.about h1{
+    text-align: center;
+    padding: 50px;
+    color: brown;
+}
+
+.about h1 span{
+    color: red;
+    font-weight: bolder;
+}
+
+.reviews h1{
+    text-align: center;
+    padding: 50px;
+    color: brown;
+}
+
+.reviews h1 span{
+    color: red;
+    font-weight: bolder;
+}

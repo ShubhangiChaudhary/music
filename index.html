@@ -1,0 +1,177 @@
+<html>
+  <head>
+    <title>Music Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <h1>gAAnA</h1>  
+        </div>
+        <ul>
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#artist">ARTISTS</a></li>
+          <li><a href="#album">ALBUM</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#reviews">REVIEWS</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="left-col">
+          <h2>
+           <span>Music...</span><br /> Strongest Form Of <span>Magic.</span>
+          </h2>
+        </div>
+        <div class="lines">
+          <p>
+            Isn't it Funny??<br />Knowing, Just How Fast The<br />
+            <span> Night Changes!!</span>
+          </p>
+          <h1>- One Direction</h1>
+        </div>
+        <div class="right-col">
+          <p>Click Here To Listen!!</p>
+          <img src="images/play.png" id="icon" />
+        </div>
+      </div>
+    </div>
+
+    <audio id="mySong">
+      <source src="songs/Night-Changes.mp3" type="audio/mp3" />
+    </audio>
+
+    <script>
+      var mySong = document.getElementById("mySong");
+      var icon = document.getElementById("icon");
+
+      icon.onclick = function () {
+        if (mySong.paused) {
+          mySong.play();
+          icon.src = "images/pause.png";
+        } else {
+          mySong.pause();
+          icon.src = "images/play.png";
+        }
+      };
+    </script>
+
+
+    <section class="artist" id="artist">
+        <h1><span>A</span>RTISTS</h1>
+        <div class="idol">
+          <ul class="idol-grid">
+            <li>
+              <div class="idol-box idol1">
+                <a href="jubin.html" class="info">
+                  <h3>Jubin Nautiyaal</h3>
+                  <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="idol-box idol2">
+                <a href="#" class="info">
+                  <h3>One Direction</h3>
+                  <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="idol-box idol3">
+                <a href="#" class="info">
+                  <h3>Arijit Singh</h3>
+                   <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="idol-box idol4">
+                <a href="#" class="info">
+                  <h3>BTS</h3>
+                  <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="idol-box idol5">
+                <a href="#" class="info">
+                  <h3>BlackPink</h3>
+                   <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+             <li>
+              <div class="idol-box idol6">
+                <a href="#" class="info">
+                  <h3>Taylor Swift</h3>
+                   <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+             <li>
+              <div class="idol-box idol7">
+                <a href="#" class="info">
+                  <h3>Darshan Raval</h3>
+                  <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="idol-box idol8">
+                <a href="#" class="info">
+                  <h3>Selena Gomez</h3>
+                   <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+             <li>
+              <div class="idol-box idol9">
+                <a href="#" class="info">
+                  <h3>KK</h3>
+                   <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+             <li>
+              <div class="idol-box idol10">
+                <a href="#" class="info">
+                  <h3>Justin Bieber</h3>
+                  <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="idol-box idol11">
+                <a href="#" class="info">
+                  <h3>Neha Kakkar</h3>
+                   <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+             <li>
+              <div class="idol-box idol12">
+                <a href="#" class="info">
+                  <h3>Alan Walker</h3>
+                   <p>jjnkdbhgjhhbbvsjdbnbs <br/>nkdnbncvhsbavncbmm,m,N,M<br/>jnkjikfebbewbjgbkngnkbbfkvbkdvvv</p>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </section>
+
+    <section class="album" id="album">
+        <h1><span>A</span>LBUM</h1>
+    </section>
+
+    <section class="about" id="about">
+        <h1><span>A</span>BOUT</h1>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h1><span>R</span>EVIEWS</h1>
+    </section>
+  </body>
+</html>
