@@ -24,34 +24,34 @@ let track = document.createElement("audio");
 //All songs list
 let All_song = [
   {
-    name: "first song",
+    name: "Steal My Girl",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/steal_my_girl.jpg",
+    singer: "One Direction",
   },
   {
-    name: "second song",
+    name: "Perfect",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/perfect.jpg",
+    singer: "One Direction",
   },
   {
-    name: "third song",
+    name: "Last First Kiss",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
-  },
-  {
-    name: "third song",
-    path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/last_first_kiss.webp",
+    singer: "One Direction",
   },
   {
     name: "third song",
     path: "songs/Night-Changes.mp3",
     img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    singer: "One Direction",
+  },
+  {
+    name: "third song",
+    path: "songs/Night-Changes.mp3",
+    img: "images/jubin3.jpg",
+    singer: "One Direction",
   },
 ];
 
