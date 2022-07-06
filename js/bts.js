@@ -24,34 +24,34 @@ let track = document.createElement("audio");
 //All songs list
 let All_song = [
   {
-    name: "first song",
+    name: "For Youth",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/for_youth.webp",
+    singer: "BTS",
   },
   {
-    name: "second song",
+    name: "Magic Shop",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/magic_shop.jpg",
+    singer: "BTS",
   },
   {
-    name: "third song",
+    name: "Spring Day",
     path: "songs/Night-Changes.mp3",
     img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    singer: "BTS",
   },
   {
-    name: "third song",
+    name: "Life Goes On",
     path: "songs/Night-Changes.mp3",
     img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    singer: "BTS",
   },
   {
-    name: "third song",
+    name: "Blue & Grey",
     path: "songs/Night-Changes.mp3",
     img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    singer: "BTS",
   },
 ];
 
