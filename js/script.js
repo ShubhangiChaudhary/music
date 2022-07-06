@@ -24,33 +24,33 @@ let track = document.createElement("audio");
 //All songs list
 let All_song = [
   {
-    name: "first song",
+    name: "Humnava Mere",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/Humnava_Mere.jpg",
     singer: "Jubin Nautiyaal",
   },
   {
-    name: "second song",
+    name: "Lo Safar",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/lo_safar.jpg",
     singer: "Jubin Nautiyaal",
   },
   {
-    name: "third song",
+    name: "Sawarne Lage",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/sawarne_lage.jpg",
     singer: "Jubin Nautiyaal",
   },
   {
-    name: "third song",
+    name: "Tum Hi Aana",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/Tum_Hi_Aana.jpg",
     singer: "Jubin Nautiyaal",
   },
   {
-    name: "third song",
+    name: "Meherbani",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/Meherbani.jpg",
     singer: "Jubin Nautiyaal",
   },
 ];
