@@ -38,19 +38,19 @@ let All_song = [
   {
     name: "Spring Day",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/spring_day.jpeg",
     singer: "BTS",
   },
   {
     name: "Life Goes On",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/life_goes_on.jpg",
     singer: "BTS",
   },
   {
     name: "Blue & Grey",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/blue&grey.jpg",
     singer: "BTS",
   },
 ];
