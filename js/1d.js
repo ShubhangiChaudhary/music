@@ -42,15 +42,15 @@ let All_song = [
     singer: "One Direction",
   },
   {
-    name: "third song",
+    name: "Infinity",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/infinity.webp",
     singer: "One Direction",
   },
   {
-    name: "third song",
+    name: "You & I",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
+    img: "images/you&i.png",
     singer: "One Direction",
   },
 ];
