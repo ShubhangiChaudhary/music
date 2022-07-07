@@ -24,34 +24,34 @@ let track = document.createElement("audio");
 //All songs list
 let All_song = [
   {
-    name: "first song",
+    name: "Kill This Love",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/kill_love.jpg",
+    singer: "Blackpink",
   },
   {
-    name: "second song",
+    name: "Forever Young",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/forever.jpg",
+    singer: "Blackpink",
   },
   {
-    name: "third song",
+    name: "Lovesick Girls",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/lovesick.png",
+    singer: "Blackpink",
   },
   {
-    name: "third song",
+    name: "Boombayah",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/boombayah.jpg",
+    singer: "Blackpink",
   },
   {
-    name: "third song",
+    name: "Whistle",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/whistle.jpg",
+    singer: "Blackpink",
   },
 ];
 
