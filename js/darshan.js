@@ -24,34 +24,34 @@ let track = document.createElement("audio");
 //All songs list
 let All_song = [
   {
-    name: "first song",
+    name: "Baarish Lete Aana",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/baarish.jpg",
+    singer: "Darshan Raval",
   },
   {
-    name: "second song",
+    name: "Ek Tarfa",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/ektarfa.webp",
+    singer: "Darshan Raval",
   },
   {
-    name: "third song",
+    name: "Mehrama",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/Mehrama.jpg",
+    singer: "Darshan Raval",
   },
   {
-    name: "third song",
+    name: "Yaara Teri Yaari",
     path: "songs/Night-Changes.mp3",
     img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    singer: "Darshan Raval",
   },
   {
-    name: "third song",
+    name: "Kaash Aisa Bhi Hota",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/Kaash.jpg",
+    singer: "Darshan Raval",
   },
 ];
 
