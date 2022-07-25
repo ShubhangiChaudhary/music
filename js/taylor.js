@@ -24,34 +24,34 @@ let track = document.createElement("audio");
 //All songs list
 let All_song = [
   {
-    name: "first song",
+    name: "Blank Space",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/blank_space.png",
+    singer: "Taylor Swift",
   },
   {
-    name: "second song",
+    name: "Wildest Dream",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/wildest_dream.jpg",
+    singer: "Taylor Swift",
   },
   {
-    name: "third song",
+    name: "Love Story",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/love_story.jpg",
+    singer: "Taylor Swift",
   },
   {
-    name: "third song",
+    name: "Bad Blood",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/bad_blood.png",
+    singer: "Taylor Swift",
   },
   {
-    name: "third song",
+    name: "Enchanted",
     path: "songs/Night-Changes.mp3",
-    img: "images/jubin3.jpg",
-    singer: "Jubin Nautiyaal",
+    img: "images/enchanted.webp",
+    singer: "Taylor Swift",
   },
 ];
 
